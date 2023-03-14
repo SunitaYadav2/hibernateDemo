@@ -28,6 +28,14 @@ public class FruitMainClass {
 		   session.save(fr2);
 		   
         
+
+		   Fruit fr3= new Fruit("orange",22,"yellow");
+		   session.save(fr3);
+		   
+		   
+		   Fruit fr4= new Fruit("guava",23,"green");
+		   session.save(fr4);
+		   
         //------------    
         session.getTransaction().commit();
         session.close();
